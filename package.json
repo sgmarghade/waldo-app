@@ -1,0 +1,37 @@
+{
+  "name": "waldo",
+  "version": "1.0.0",
+  "description": "Waldo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive"
+  },
+  "author": "Swapnil Marghade",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "bluebird": "^3.3.4",
+    "boom": "^3.1.2",
+    "hapi": "^13.0.0",
+    "hapi-qs": "^1.1.0",
+    "hapi-swagger": "^5.0.1",
+    "inert": "^3.2.0",
+    "joi": "^8.0.4",
+    "lodash": "^4.6.1",
+    "moment": "~2.10.6",
+    "moment-timezone": "^0.4.1",
+    "nconf": "^0.8.4",
+    "qs": "^6.2.0",
+    "request-promise": "^3.0.0",
+    "vision": "^4.1.0",
+    "winston": "^1.0.2",
+    "node-uuid": "^1.4.7",
+    "mongoose": "~4.1.7",
+    "xml2js":"^0.4.17",
+    "exif":"^0.4.0",
+    "request":"^2.78.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
