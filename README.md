@@ -21,7 +21,7 @@ Store EXIF Data for image in DataStore (MongoDB)
 - Mongo as datastore. 
 
 ## API
-- POST http://localhost:27010/v1/documents   //Will create document from default URL provided. 
+- POST http://localhost:27010/v1/documents  
 - GET http://localhost:27010/v1/documents?criteria[data.image.Make]=NIKON CORPORATION&criteria[data.image.Model]=NIKON D750&limit=2
 
 ## Scale / Evolution over time. 
